@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    width: 337px;
+    margin: auto;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+h2 {
+    font-size: 26px;
+    height: 34px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+.input {
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+    margin-top: 12px;
+    padding-left: 5px;
+    padding-right: 56px;
+}
+
+.button-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.add-button {
+    width: 129px;
+    height: 42px;
+    background-color: rgb(153, 59, 235);
+    border-radius: 25px;
+    border: 0;
+    color: white;
+}
+
+.input-icon,
+.delete-icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 70px;
+}
+
+.input-icon:hover,
+.delete-icon:hover,
+.sort:hover {
+    background-color: rgb(153, 59, 235);
+}
+
+.icon1 {
+    margin-top: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 31px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.list {
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    height: 200px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    display: none;
+    width: 286px;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-right: 16px;
+}
+
+.list-item-text {
+   width: 140px;
+}
+
+.sort2 {
+    display: none;
+}
